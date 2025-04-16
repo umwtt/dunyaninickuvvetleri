@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10. Sınıf Dünya'nın İç Kuvvetleri</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Tablo stili */
+    .force-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2em;
+    }
+    .force-table th,
+    .force-table td {
+      border: 1px solid #ccc;
+      padding: 0.75em;
+      text-align: left;
+    }
+    .force-table th {
+      background-color: #f0f0f0;
+    }
+    /* Örnek kart stili */
+    .examples .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
+    .examples .card {
+      background-color: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .examples .card:hover {
+      transform: translateY(-5px);
+    }
+    .examples .card img {
+      max-width: 100%;
+      border-radius: 4px;
+      margin-bottom: 0.5em;
+    }
+    .examples .card a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<script src="script.js"></script>
+<body>
+  <header>
+    <h1>10. Sınıf Dünya'nın İç Kuvvetleri Ünitesi</h1>
+    <p class="subtitle">İç kuvvetlerin tanımı, etkileri ve oluşturdukları yer şekilleri</p>
+  </header>
+
+  <main class="content">
+    <!-- 1. İç Kuvvetler Tablosu -->
+    <section class="forces page">
+        <h2>İç Kuvvetler Tablosu</h2>
+        <table class="force-table">
+          <thead>
+            <tr>
+              <th>İç Kuvvet</th>
+              <th>Tanım</th>
+              <th>Örnek Yer Şekilleri</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="pages/orojenez.html">Orojenez</a></td>
+              <td>Levha hareketleri sonucu kıta kabuğunun kıvrılması ve dağ oluşumuna yol açan iç kuvvetler.</td>
+              <td>Himalaya, Alp Dağları</td>
+            </tr>
+            <tr>
+                <td><a href="pages/epirojenez.html">Epirojenez</a></td>
+                <td>Kıta kabuğunun yavaşça yükselmesi ya da alçalması sonucu meydana gelen yer şekilleri.</td>
+              <td>İskandinavya Yarımadası</td>
+            </tr>
+            <tr>
+              <td><a href="pages/volkanizma.html">Volkanizma</a></td>
+              <td>Magma ve gazların yer yüzeyine çıkıp birikerek katılaşması ve volkanik dağlar oluşturması.</td>
+              <td>Etna, Mauna Loa</td>
+            </tr>
+            <tr>
+              <td><a href="pages/faylanma.html">Faylanma (Depremler)</a></td>
+              <td>Yer kabuğundaki kırılmaların ve levha hareketlerinin sonucunda fay hatları ve depremler meydana gelir.</td>
+              <td>Kuzey Anadolu Fayı, Doğu Anadolu Fayı</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      
+
+    <!-- 2. Yer Şekillerine Örnekler -->
+    <section class="examples page">
+        <h2>İç Kuvvetlerin Oluşturduğu Yer Şekillerine Örnekler</h2>
+        <div class="grid">
+          <div class="card">
+            <img src="assets/images/etna.jpg" alt="Etna Yanardağı">
+            <a href="pages/etna.html">Etna Yanardağı</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/mauna-loa.jpg" alt="Mauna Loa Yanardağı">
+            <a href="pages/mauna-loa.html">Mauna Loa Yanardağı</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/himalaya.jpg" alt="Himalaya Dağları">
+            <a href="pages/himalaya.html">Himalaya Dağları</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/alp-daglari.jpg" alt="Alp Dağları">
+            <a href="pages/alp.html">Alp Dağları</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/kuzey-anadolu-fay.jpg" alt="Kuzey Anadolu Fayı">
+            <a href="pages/kuzey-anadolu.html">Kuzey Anadolu Fayı</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/iskandinavya.jpg" alt="İskandinavya Yarımadası">
+            <a href="pages/iskandinavya.html">İskandinavya</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/dogu-afrika.jpg" alt="Doğu Afrika Rift Vadisi">
+            <a href="pages/afrika-rift.html">Doğu Afrika Rift Vadisi</a>
+          </div>
+          <div class="card">
+            <img src="assets/images/dogu-anadolu-fay.jpg" alt="Doğu Anadolu Fayı">
+            <a href="pages/dogu-anadolu.html">Doğu Anadolu Fayı</a>
+          </div>
+        </div>
+      </section>
+      
+  </main>
+
+  <footer>
+    <p>© 2025 Yer Şekilleri Bilgi Sitesi</p>
+  </footer>
+</body>
+</html>
