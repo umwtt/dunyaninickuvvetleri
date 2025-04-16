@@ -1,3 +1,4 @@
+/* Genel Stil */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -12,6 +13,7 @@ body {
     padding: 1.5em 0;
   }
   
+  /* Grid düzeni ile içerik */
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -19,46 +21,53 @@ body {
     padding: 2em;
   }
   
+  /* Grid öğeleri */
   .grid a {
     background-color: white;
     text-decoration: none;
     color: black;
     padding: 1.5em;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
   }
   
+  /* Hover animasyonu */
   .grid a:hover {
     transform: scale(1.05);
   }
   
+  /* Footer stil */
   footer {
     text-align: center;
     padding: 1em;
     background-color: #222;
     color: #aaa;
   }
-
+  
+  /* İçerik bölümü */
   .content {
     max-width: 900px;
     margin: auto;
     padding: 2em;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   }
   
+  /* Resim stil */
   .main-image {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
   }
   
+  /* Sayfa bölümleri */
   section {
     margin-bottom: 2em;
   }
   
+  /* Geri dönme bağlantısı */
   .back-link {
     display: inline-block;
     margin-top: 2em;
@@ -66,8 +75,9 @@ body {
     color: #0077cc;
     font-weight: bold;
   }
+  
   /* Genel animasyonlar için geçiş efekti */
-.page {
+  .page {
     opacity: 0;
     transform: translateY(50px);
     transition: transform 0.8s ease, opacity 0.8s ease;
@@ -88,5 +98,4 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   }
-  
   
